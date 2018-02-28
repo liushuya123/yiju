@@ -15,9 +15,10 @@ body{
 	padding-top:  9px;
 }
 .top_nr{
-	width: 1152px;	
 	height: 59px;
+	margin: 0 auto;
 	margin-left: 90px;
+	margin-right: 124px;
 }
 .top_nrleft{
 	width: 103px;
@@ -162,6 +163,12 @@ body{
 	background-color: #BDCCD4;
 	position: relative;
 }
+.banner_center {
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+}
 .banner_lantiao{
 	width: 35px;
 	height: 2px;
@@ -179,12 +186,12 @@ body{
 	width: 250px;
 	height: 213px;
 	position: absolute;
-	left: 560px;
+	left: 490px;
 	top: 70px;
 }
 .banner_zi{
 	position: absolute;
-	left: 613px;
+	left:500px;
 	top: 153px;
 	font-size: 40px;
 	color: #fff;
@@ -195,7 +202,7 @@ body{
 	background-color: #2B6C8C;
 	margin: 0 auto;
 	position: absolute;
-	left: 82px;
+	/*left: 82px;*/
 	top: 214px;
 }
 .banner_biaoti1{
@@ -624,7 +631,7 @@ body{
 	width: 100%;
 	height: 56px;
 	background-color: #191919;
-	margin-top: 597px;	
+	float: left;
 }
 .xkz_wenzi{
 	width: 523px;

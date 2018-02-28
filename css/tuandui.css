@@ -15,9 +15,10 @@ body{
 	padding-top:  9px;
 }
 .top_nr{
-	width: 1152px;	
 	height: 59px;
+	margin: 0 auto;
 	margin-left: 90px;
+	margin-right: 124px;
 }
 .top_nrleft{
 	width: 103px;
@@ -162,6 +163,12 @@ body{
 	background-color: #BDCCD4;
 	position: relative;
 }
+.banner_center {
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+}
 .banner_lantiao{
 	width: 35px;
 	height: 2px;
@@ -172,7 +179,7 @@ body{
 	height: 256px;
 	width: 276px;
 	position: absolute;
-	left: 580px;
+	left: 490px;
 	top: 25px;
 }
 .banner_titlte{
@@ -182,12 +189,12 @@ body{
 	font-weight: bold;
 	color: #FFFFFF;
 	position: absolute;
-	left: 423px;
+	left: 323px;
 	top: 0;
 }
 .banner_zi{
 	position: absolute;
-	left: 600px;
+	left: 500px;
 	top: 153px;
 	font-size: 40px;
 	color: #fff;
@@ -198,7 +205,7 @@ body{
 	background-color: #2B6C8C;
 	margin: 0 auto;
 	position: absolute;
-	left: 82px;
+	/*left: 82px;*/
 	top: 214px;
 }
 .banner_biaoti1{
@@ -412,20 +419,19 @@ body{
 	float: right;
 }
 .neirong_ct{
-	width: 1200px;
+	width: 88.95478132%;
 	height: 127px;
 	margin: 0 auto;
 	margin-top: 100px;
+	background-image: url("../img/tuandui5.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
 }
-.neirong_ct img{
-	position: absolute;
-	top: -390px;
-	left: 0;
-}
 .nr_ct{
-	width: 1200px;
+	width: 100%;
 	height: 127px;
 	position: absolute;
 	top: 0;
@@ -679,7 +685,7 @@ body{
 	width: 100%;
 	height: 56px;
 	background-color: #191919;
-	margin-top: 597px;	
+	float: left;
 }
 .xkz_wenzi{
 	width: 523px;

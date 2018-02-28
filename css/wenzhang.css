@@ -15,9 +15,10 @@ body{
 	padding-top:  9px;
 }
 .top_nr{
-	width: 1152px;	
 	height: 59px;
+	margin: 0 auto;
 	margin-left: 90px;
+	margin-right: 124px;
 }
 .top_nrleft{
 	width: 103px;
@@ -162,6 +163,12 @@ body{
 	background-color: #BDCCD4;
 	position: relative;
 }
+.banner_center {
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
+	position: relative;
+}
 .banner_lantiao{
 	width: 35px;
 	height: 2px;
@@ -177,12 +184,12 @@ body{
 }
 .banner1{
 	position: absolute;
-	left: 600px;
+	left: 490px;
 	top: 30px;
 }
 .banner_zi{
 	position: absolute;
-	left: 613px;
+	left: 500px;
 	top: 153px;
 	font-size: 40px;
 	color: #fff;
@@ -193,7 +200,7 @@ body{
 	background-color: #2B6C8C;
 	margin: 0 auto;
 	position: absolute;
-	left: 82px;
+	left:0;
 	top: 214px;
 }
 .banner_biaoti1{
@@ -259,12 +266,15 @@ body{
 	right: 190px;
 	top: 45px;
 }
+.chuwenzi{
+	width: 1147px;
+	height: 2050px;
+	margin: 0 auto;
+}
 .chufang{
 	width: 320px;
 	height: 88px;
-	float: left;
 	margin-top: 70px;
-	margin-left: 113px;
 }
 .cf_tiao{
 	width: 58px;
@@ -287,7 +297,8 @@ body{
 	width: 1147px;
 	height: 1944px;
 	margin: 0 auto;
-	margin-top:180px;
+	margin-top:20px;
+	/*margin-left: 188px;*/
 	border-top: 1px solid #E6E6E6;
 }
 .chufang1{
@@ -313,7 +324,7 @@ body{
 .cf_jieshao{
 	width: 989px;
 	height: 218px;
-	margin-top: 227px;
+	margin-top: 90px;
 }
 .nr_wenzi{
 	width: 985px;
@@ -450,10 +461,18 @@ body{
 	position: relative;
 	float: right;
 }
+.pinglun_pl{
+	width: 100%;
+	float: left;
+}
+.pinglun_contain{
+	width: 1130px;
+	margin: 0 auto;
+}
 .pinglun{
 	width: 176px;
 	height: 89px;
-	margin-left: 113px;
+	/*margin-left: 113px;*/
 	margin-top: 41px;
 }
 .pl_tiao{
@@ -541,12 +560,16 @@ body{
 	font-size: 20px;
 	color: #858585;
 }
-
+.dayema{
+	width: 100%;
+	height: 20px;
+	margin-top: 50px;
+	float: left;
+}
 .wc_yema{
 	width: 323px;
 	height: 24px;
 	margin: 0 auto;
-	margin-top: 61px;
 }
 .wc_yema span{
 	font-size: 16px;
@@ -738,7 +761,7 @@ body{
 	width: 100%;
 	height: 56px;
 	background-color: #191919;
-	margin-top: 562px;	
+	float: left;
 }
 .xkz_wenzi{
 	width: 523px;

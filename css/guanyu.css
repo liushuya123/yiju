@@ -15,9 +15,10 @@ body{
 	padding-top:  9px;
 }
 .top_nr{
-	width: 1152px;	
 	height: 59px;
+	margin: 0 auto;
 	margin-left: 90px;
+	margin-right: 124px;
 }
 .top_nrleft{
 	width: 103px;
@@ -160,6 +161,13 @@ body{
 	width: 100%;
 	height: 250px;
 	background-color: #BDCCD4;
+	margin: 0 auto;
+	position: relative;
+}
+.banner_center{
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
 	position: relative;
 }
 .banner_lantiao{
@@ -172,7 +180,7 @@ body{
 	height: 279px;
 	width: 207px;
 	position: absolute;
-	left: 580px;
+	left: 490px;
 	top: 5px;
 }
 .banner_titlte{
@@ -182,12 +190,12 @@ body{
 	font-weight: bold;
 	color: #FFFFFF;
 	position: absolute;
-	left: 523px;
+	left: 443px;
 	top: 0;
 }
 .banner_zi{
 	position: absolute;
-	left: 600px;
+	left: 500px;
 	top: 153px;
 	font-size: 40px;
 	color: #fff;
@@ -198,7 +206,7 @@ body{
 	background-color: #2B6C8C;
 	margin: 0 auto;
 	position: absolute;
-	left: 82px;
+	/*left: 2px;*/
 	top: 214px;
 }
 .banner_biaoti1{
@@ -445,36 +453,48 @@ body{
 	border-bottom: 2px solid #000;
 	float: left;
 }
+.nr_tln{
+	width: 239px;
+	height: 433px;
+	float: right;
+	position: relative;
+}
 .nr_tophuang{
 	width: 160px;
 	height: 11px;
 	background-color: #F5C813;
-	margin-left: 150px;
-	float: left;
+	position: absolute;
+	top:-11px;
+	left: -13px;
 }
 .nr_lefthuang{
 	width: 13px;
 	height: 272px;
 	background-color: #F5C813;
-	margin-left: 150px;
-	float: left;
+	position: absolute;
+	left: -13px;
+	top: 0;
 }
 .nr_img2{
 	width: 239px;
 	height: 433px;
 	float: right;
 }
+.qywh{
+	width: 1014px;
+	height: 606px;
+	margin:0 auto;
+	margin-top: 42px;
+}
 .hangyedt{
 	width: 100%;
 	height: 316px;
-	margin-top: 42px;
 	position: relative;
 }
 .lantiao1{
 	width: 14px;
 	height: 268px;
 	background-color: #245974;
-	margin-left: 178px;
 	margin-top: 34px;
 	float: left;
 }
@@ -490,7 +510,6 @@ body{
 	width:160px;
 	height: 15px;
 	background-color: #245974;
-	margin-left: 178px;
 	float: left;
 }
 .dongtai_zi{
@@ -538,7 +557,7 @@ body{
 .dt_new{
 	position: absolute;
 	top:213px;
-	left:370px;
+	left:170px;
 	font-size: 130px;
 	color: #245974;
 	font-style: oblique;
@@ -611,46 +630,77 @@ body{
 	height: 400px;
 	float: left;
 }
+.new_bjimg{
+	width: 100%;
+	height: 400px;
+}
+.new_bjimg2{
+	width: 100%;
+	height: 682px;
+}
+.bj_img{
+	width: 29.88159377%;
+	height: 400px;
+	background-image: url("../img/guanyu5.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 6.22683469%;
+}
+.bj_img1{
+	background-image: url("../img/guanyu6.png");
+	margin-left: 0;
+}
+.bi_img2{
+	width: 33.9928169%;
+	height: 398px;
+	background-image: url("../img/guanyu7.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.bj_img3{
+	width: 21.05263158%;
+	height: 682px;
+	float: left;
+	background-image: url("../img/guanyu8_1.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.bj_img4{
+	width:44.47739066%;
+	height: 400px;
+	float: left;
+	background-image: url("../img/guanyu9.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .new_tp1{
-	width: 400px;
+	width: 100%;
 	height: 400px;
 	background-color: #477389;
-	position: absolute;
-	top:0 ;
-	left: 84px;
 }
 .new_tp2{
-	width: 400px;
+	width: 100%;
 	height: 400px;
 	background-color: #477389;
-	position: absolute;
-	top:0 ;
-	left: 484px;
 }
 .new_tp3{
-	width: 465px;
+	width: 100%;
     height: 398px;
     background-color: #477389;
-	position: absolute;
-	top:0 ;
-	left: 884px ;
 }
 .new_img4{
 	width: 465px;
     height: 398px;
     background-color: #477389;
-	position: absolute;
-	top: 400px;
-	left:0 ;
 }
 .new_tp5{
-	width: 600px;
+	width: 100%;
     height: 400px;
     background-color: #477389;
-	position: absolute;
-	top: 400px;
-	left: 284px;
 	padding-left: 100px;
+	float: left;
 }
 .new_tpword{
 	opacity: 0;
@@ -664,8 +714,9 @@ body{
 .new_img6wz1{
 	width: 168px;
     height: 288px;
-    margin-top: 52px;
+    padding-top: 52px;
 	margin-left: 50px;
+	position: relative;
 }
 .new_img6wz1 p{
 	font-size: 28px;
@@ -701,9 +752,11 @@ body{
     float: left;
 }
 .new_more1{
+	width: 150px;
+	height: 69px;
 	position: absolute;
-    top: 312px;
-    left: 181px;
+    top: 282px;
+    left: 0;
 }
 .new_img3{
 	width: 465px;
@@ -711,16 +764,16 @@ body{
 	float: left;
 }
 .new_img4{
-	width: 284px;
-	height: 600px;
+	width:  21.05263158%;
+	height: 682px;
 	float: left;
 	position: absolute;
 	left: 0;
 	top: 400px;
 }
 .new_img4_0{
-	width: 284px;
-	height: 600px;
+	width: 465px;
+	height: 398px;
 	position: absolute;
 	left: 0;
 	top: 400px;
@@ -732,7 +785,7 @@ body{
 	margin-left: 284px;
 }
 .new_img6{
-	width: 465px;
+	width:34.46997776%;
 	height: 402px;
 	background-color: #F5C813;
 	float: left;
@@ -798,28 +851,21 @@ body{
 .new_imglogo{
 	width: 1000px;
 	height: 187px;
-	position: absolute;
-	top: 811px;
-	left: 296px;
-	position: relative;
+	margin-top: 15px;
+	margin-left: 12px;
+	float: left;
 }
 .new_logo1{
-	position: absolute;
-	top: 0;
-	left: 0;
 	float: left;
+	margin-left: 8px;
 }
 .new_logo2{
-	position: absolute;
-	top: 0;
-	left: 241px;
 	float: left;
+	margin-left: 8px;
 }
 .new_logo3{
-	position: absolute;
-	top: 0;
-	left: 482px;
 	float: left;
+	margin-left: 8px;
 }
 .new_logo4{
 	width: 229px;
@@ -829,9 +875,8 @@ body{
 	color: #fff;
 	line-height: 183px;
 	text-align: center;
-	position: absolute;
-	top: 4px;
-	left: 727px;
+	margin-left: 8px;
+	margin-top: 4px;
 	float: left;
 }
 .future{
@@ -1049,7 +1094,7 @@ body{
 	width: 100%;
 	height: 56px;
 	background-color: #191919;
-	margin-top: 597px;	
+	float: left;
 }
 .xkz_wenzi{
 	width: 523px;
