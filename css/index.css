@@ -7,12 +7,13 @@
   url('https://at.alicdn.com/t/font_569558_vj37noidc6p3nmi.svg#iconfont') format('svg');
 }
 body{
-	background-color: #FAFAFA;
+	background-color: #fff;
 }
 .top{
 	width: 100%;
-	height: 79px;
-	padding-top:  9px;
+	height:90px;
+	padding-top:  15px;
+	background-color: #FAFAFA;
 }
 .top_nr{
 	height: 59px;
@@ -160,7 +161,6 @@ body{
 .banner{
 	width: 100%;
 	height: 540px;
-	margin-top: 11px;
 	position: relative;
 }
 .banner_center {
@@ -384,6 +384,9 @@ body{
 	bottom: 0;
 	right: 78px;
 }
+.al_ljt:hover{
+	background-color: #3C3C3C;
+}
 .al_rjt{
 	width: 41px;
 	height: 42px;
@@ -396,6 +399,9 @@ body{
 	position: absolute;
 	bottom: 0;
 	right: 37px;
+}
+.al_rjt:hover{
+	background-color: #3C638C;
 }
 .al_right{
 	width: 480px;
@@ -453,6 +459,9 @@ body{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+}
+.al_jia:hover{
+	background-color: #3C638C;
 }
 .al_rwz{
 	width: 480px;
@@ -512,6 +521,10 @@ body{
 	text-align: center;
 	line-height: 25px;
 	float: right;
+}
+.td_jia:hover{
+	background-color: #ccc;
+	color: #fff;
 }
 .td_more{
 	width: 48px;
@@ -638,6 +651,7 @@ body{
 	width: 383px;
 	height: 167px;
 	float: left;
+	position: relative;
 }
 .map_name{
 	width: 183px;
@@ -656,7 +670,14 @@ body{
 .map_liuyan{
 	width: 383px;
 	height: 126px;
+	max-width:383px ;
+	max-height: 126px;
 	margin-top: 12px;
+}
+.map_jt{
+	position: absolute;
+	right:-5px;
+	bottom:10px;
 }
 .map_jiahao{
 	width: 26px;
