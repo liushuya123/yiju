@@ -512,18 +512,27 @@ body{
 	position: relative;
 	background-color:#2B6C8C;
 }
+.datu_left{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: url("../img/datu1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .datu_img1{
-	width: 651px;
+	display: block;
+	width: 100%;
 	height: 100%;
 	float: left;
 }
 .datu_right{
-	width: 710px;
+	width:50%;
 	height: 100%;
 	background-color: #2B6C8C;
-	position: absolute;
-	top: 0;
-	left: 651px;
+	position: relative;
+	/*top: 0;*/
+	/*left: 651px;*/
 	opacity: 0.9;
 	float: left;
 }
@@ -538,7 +547,7 @@ body{
 	width: 358px;
 	height: 139px;
 	position: absolute;
-	left: 694px;
+	left: 64px;
 	top: 54px;
 }
 .datuzi p{
@@ -557,10 +566,10 @@ body{
 	margin-top: 4px;
 }
 .datuxz{
-	width: 128px;
+	/*width: 128px;*/
 	height: 15px;
 	position: absolute;
-	left: 694px;
+	left: 64px;
 	top: 300px;
 }
 .datuxz p{
@@ -572,7 +581,7 @@ body{
 	width: 17px;
 	height: 2px;
 	position: absolute;
-	left:819px;
+	left: 190px;
 	top: 315px;
 	background-color: #4E4831;
 }
