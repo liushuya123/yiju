@@ -1018,6 +1018,8 @@ body{
 	height: 126px;
 	max-width:383px ;
 	max-height: 126px;
+	min-width:383px ;
+	min-height: 126px;
 	margin-top: 12px;
 }
 .map_jt{
