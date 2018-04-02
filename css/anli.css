@@ -614,6 +614,7 @@ progress{
 	height: 981px;
 	margin: 0 auto;
 	margin-top: 46px;
+	position: relative;
 }
 .wc_nr1{
 	width: 317px;
@@ -905,4 +906,20 @@ progress{
 	text-align: center;
 	padding-top: 10px;
 	color: #7A7A7A;
+}
+.yangtai{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.active1{
+	z-index: 9;
+	opacity: 1;
+}
+.jindutiao{
+	opacity: 0;
+}
+.active2{
+	opacity: 1;
 }

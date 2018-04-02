@@ -162,7 +162,7 @@
 		<div class="succed_fangkuai"></div>
 	</div>
 	<div class="succed_name succed_name1">
-		企 业 文 化
+		行 业 动 态
 	</div>
 	<div class="qywh">
 		<div class="hangyedt">
@@ -187,11 +187,11 @@
 				<div class="nr_jiahao">+</div>
 			</div>
 			</a>
-			<div class="dt_wenzi">
+			<div class="dt_wenzi dt_wenzi1">
 				<h2>隆重揭晓智慧园区“最美前台”评选活动</h2>
 				<h3>宜居时代举办的智慧园区“最美前台”活动受到各园区企业的积极参与和踊跃报名，众多优秀的企业都希望通过这次活动大展风采，摘取桂冠。</h3>
 			</div>
-			<div class="dt_wenzi1">
+			<div class="dt_wenzi">
 				<h2>隆重揭晓智慧园区“最美前台”评选活动</h2>
 				<h3>宜居时代举办的智慧园区“最美前台”活动受到各园区企业的积极参与和踊跃报名，众多优秀的企业都希望通过这次活动大展风采，摘取桂冠。</h3>
 			</div>
@@ -430,4 +430,15 @@
 	</div>
 	<!-- 站点地图结束 -->
 </body>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(".dt_wenzi").mouseenter(function () {
+        let index=$(this).index(".dt_wenzi");
+        $(".dt_wenzi").removeClass("dt_wenzi1").eq(index).addClass("dt_wenzi1")
+    });
+    $(".dt_wenzi").mouseleave(function () {
+        let index=$(this).index(".dt_wenzi");
+        $(".dt_wenzi").eq(index).removeClass("dt_wenzi1")
+    })
+</script>
 </html>
